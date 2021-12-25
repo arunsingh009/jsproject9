@@ -12,7 +12,7 @@ function forward() {
     }, 1000);
 
     imgIndex = imgIndex + 1;
-    if (imgIndex > (images.length) - 1) {
+    if (imgIndex>images.length- 1) {
         imgIndex = 0
     }
     document.getElementById("slider").src = images[imgIndex];
