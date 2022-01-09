@@ -7,7 +7,7 @@ main{
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color:red;
+   /* background-color:red;*/
     justify-content: center;
     flex-direction: column;
 }
